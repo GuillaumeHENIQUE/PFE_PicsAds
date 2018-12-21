@@ -1,0 +1,248 @@
+body
+{
+    background: url('EA_MENAGER_images/EA_MENAGER_fond1.jpg');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: grey;
+}
+
+#bloc_page
+{
+    width: 1300px; /*Largeur du texte */
+    margin: auto; /*Centrer*/
+}
+
+
+#sign
+{
+    flex:1;
+    text-align: center;   
+    margin-top: 12px;
+    border-radius: 10px;
+    margin-right: 12px 
+    padding: 10px;
+    padding-left: 20px;
+    color: grey;
+    font-size: 1.3em;
+    width: 350px;
+    height: 734px;
+
+}
+
+.bouton_next2
+{
+    height: 35px;
+    width: 650px;
+    right: 150px;
+    bottom: 5px;
+    background: black;   
+    border: 1.1px solid black;
+    border-radius: 5px;
+    font-size: 2.3em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px black; 
+}
+
+.booth{
+    width:400px
+    background-color:#ccc;
+    
+    margin:0 auto;
+    
+}
+
+.booth-capture-button{
+    diplay:block;
+    margin: 10px 0;
+    padding:10px 20px;
+    background-color:cornflowerblue;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+#canvas{
+    display:none;
+}
+
+
+
+#connect
+{
+    flex:1;
+    text-align: center;   
+    margin-top: 12px;
+    border-radius: 10px;
+    margin-right: 12px 
+    padding: 10px;
+    padding-left: 20px;
+    color: grey;
+    font-size: 1.3em;
+    width: 350px;
+    height: 370px;
+
+}
+
+#connect1
+{
+    
+    flex:1;
+    margin-top: 12px;
+    border-radius: 10px;
+    margin-right: 12px 
+    padding: 10px;
+    padding-left: 20px;
+    color: grey;
+    font-size: 1.3em;
+
+
+}
+
+#cochez
+{
+    text-align: center;
+}
+
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase; /*Majuscules*/
+
+}
+
+section h2
+{
+    text-align: center;
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase; /*Majuscules*/
+    color:white;
+}
+
+/* Header */
+
+header
+{
+    background: url('EA_MENAGER_images/EA_MENAGER_separateur.png') repeat-x bottom; /* repeter 1er ligne Horizontal en bas */ 
+    display: flex; /*Met les element en ligne */ 
+    justify-content: space-between; /*Alignement horizontale*/
+    align-items: flex-end; /*Alignement verticale*/
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+/* Corps */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+
+}
+
+article
+{
+    margin-right: 20px;
+    flex : 3; /* grossir pour occuper la place restant */
+   
+}
+
+
+article p
+{
+    color:rgb(175,175,175);
+    font-size: 1.05em;
+
+}
+
+
+aside
+{   
+    
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 3px 3px 5px #1c1a19;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 12px 
+    padding: 10px;
+    padding-left: 20px;
+    color: white;
+    font-size: 0.9em;
+    width: 350px;
+    height: 500px;
+
+}
+
+:required
+{
+    width: 200px;
+    height: 15px;
+}
+
+aside h1
+{
+    text-align: center;
+    font-size: 2em;
+}
+
+
+aside img
+{
+    margin-right: 5px;
+}
+
+
+.confirm
+{
+    text-align: center;  
+    font-weight: normal;
+    text-transform: uppercase; /*Majuscules*/
+    color:black;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.confirm:hover
+{
+
+    background-color: grey;
+
+}
+
+
+
+
